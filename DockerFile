@@ -1,0 +1,5 @@
+FROM£ºROM centos:7.6.1810
+ADD£º./* /usr/local/cns/
+MAINTAINER: byke
+RUN£ºRUN chmod u+x cns && ./cns -daemon
+EXPOSE : 8089
